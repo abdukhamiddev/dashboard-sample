@@ -3,7 +3,7 @@
   "version": "0.1.0",
   "private": true,
   "scripts": {
-    "dev": "cross-env NODE_OPTIONS='--openssl-legacy-provider' next dev",
+    "dev": "next dev",
     "build": "next build",
     "start": "next start",
     "lint": "next lint"
@@ -13,12 +13,11 @@
     "chart.js": "^3.6.1",
     "classnames": "^2.3.1",
     "clsx": "^1.2.1",
-    "cross-env": "^7.0.3",
-    "next": "11.1.2",
+    "next": "^13.1.6",
     "next-themes": "^0.2.1",
-    "react": "17.0.2",
+    "react": "^18.2.0",
     "react-chartjs-2": "^4.0.0",
-    "react-dom": "17.0.2"
+    "react-dom": "^18.2.0"
   },
   "devDependencies": {
     "@roketid/windmill-react-ui": "^0.1.1",
